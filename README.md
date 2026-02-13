@@ -23,7 +23,7 @@ This naming convention makes it possible to identify the paper at a glance in a 
 ## Problem
 
 Downloaded academic PDFs arrive with opaque filenames: publisher-assigned hashes (`029401_1_online.pdf`), DOI-encoded strings (`10.1515_bmc.2011.016.pdf`), or truncated titles.
-Manually renaming dozens or hundreds of papers is tedious, error-prone and time-consumging.
+Manually renaming dozens or hundreds of papers is tedious, error-prone, and time-consuming.
 Using AI for all repetitive tasks of this nature is unethical; use scripts instead.
 `relabeledPDFs.py` automates the process by extracting author, year, and title metadata from each PDF and constructing a consistent filename.
 
