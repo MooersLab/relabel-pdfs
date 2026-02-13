@@ -334,8 +334,10 @@ relabeledPDFs/
 
 Alpha. 
 Does not handle all edge cases yet. 
-The lead author's last name is sometime is somethings misindentified. 
-Some manul editing is still required.
+The lead author's last name is sometimes misindentified replaced with the wrong word. 
+This will be obvious. 
+Some manual editing is still required.
+Nonetheless, a lot of work is saved.
 
 ## Contributing
 
