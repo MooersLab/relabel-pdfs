@@ -1,4 +1,4 @@
-# relabeledPDFs
+# Relabel PDFs without Burning up the Planet by Using AI
 
 ![Version](https://img.shields.io/static/v1?label=relabel-pdfs&message=0.1&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -23,7 +23,8 @@ This naming convention makes it possible to identify the paper at a glance in a 
 ## Problem
 
 Downloaded academic PDFs arrive with opaque filenames: publisher-assigned hashes (`029401_1_online.pdf`), DOI-encoded strings (`10.1515_bmc.2011.016.pdf`), or truncated titles.
-Manually renaming dozens or hundreds of papers is tedious and error-prone.
+Manually renaming dozens or hundreds of papers is tedious, error-prone and time-consumging.
+Using AI for all repetitive tasks of this nature is unethical; use scripts instead.
 `relabeledPDFs.py` automates the process by extracting author, year, and title metadata from each PDF and constructing a consistent filename.
 
 ## How it works
@@ -329,6 +330,13 @@ relabeledPDFs/
 - **Heuristic author/title detection**: The text-based fallback uses regex patterns tuned for common academic paper layouts. Unusual formatting (e.g., titles in images, authors in footers) may not be detected.
 - **Six-word limit**: Extremely long titles may lose distinguishing information. Increase `n` in `title_to_camel()` if this is a concern.
 
+## Status 
+
+Alpha. 
+Does not handle all edge cases yet. 
+The lead author's last name is sometime is somethings misindentified. 
+Some manul editing is still required.
+
 ## Contributing
 
 1. Fork the repository.
@@ -341,7 +349,7 @@ relabeledPDFs/
 
 | Version      | Changes                                                                                                                                  | Date                 |
 |:-------------|:-----------------------------------------------------------------------------------------------------------------------------------------|:---------------------|
-| Version 0.1  | Added badges, funding, and update table. Initial commit.                                                                                 | 2024 December 4      |
+| Version 0.1  | Added badges, funding, and update table. Initial commit.                                                                                 | 2026 February 12     |
 
 ## Sources of funding
 
